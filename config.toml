@@ -9,7 +9,9 @@ theme = "spectral"
 [params]
 fancyTitle = "Intérieur Déco" # title for frontpage, may include image
 copyright = "Manuela Faisca"
-description = 'toujours une ID en tête ...'
+non_meta_description = "toujours une ID en tête ..."
+# Meta description tres important pour les moteurs de recherche
+description = "Architecte d'intérieur basé sur Lille, je réalise vos projets de décoration"
 #startbuttonText = "Activate"
 #startbuttonLink = "#contact_address"
 body_is_markdown = true
@@ -50,14 +52,7 @@ title = "Home"
 url = '/blog/'
 title = "Blog"
 
-#[[params.menu.main]]
-#identifier = "parent"
-#url = '/a_propos_de_moi/'
-#title = "A PROPOS DE MOI"
-
 [[params.menu.main]]
-parent = "parent"
-identifier = "enfant"
 url = '/a_propos_de_moi/qui-suis-je'
 title = "Qui suis-je ?"
 
